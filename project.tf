@@ -64,7 +64,7 @@ resource "aws_route_table_association" "production_assoc" {
   route_table_id = aws_route_table.production_rt.id
 }
 
-// Add comment
+
 ##################################
 # 6. Security Group
 ##################################
